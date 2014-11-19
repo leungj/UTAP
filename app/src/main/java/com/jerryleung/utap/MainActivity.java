@@ -1,9 +1,11 @@
 package com.jerryleung.utap;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class MainActivity extends Activity {
@@ -35,5 +37,11 @@ public class MainActivity extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void prevention_click(View view) {
+        Intent getPreventionScreenIntent = new Intent(this, PreventionScreen.class);
+        final int result = 1;
+        startActivity(getPreventionScreenIntent);
     }
 }

@@ -22,51 +22,41 @@
         -->
 
     <TextView
-        android:text="@string/use_of_antibiotics"
+        android:text="@string/aware_intro"
         android:textStyle="bold"
         android:textSize="32sp"
         android:textColor="@android:color/background_light"
-        android:layout_gravity="top"
+        android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="40dp"
         android:gravity="center" />
 
     <TextView
-        android:text="@string/use_of_antibiotics_content"
+        android:text="@string/aware_intro_content"
         android:textSize="18sp"
         android:textColor="@android:color/background_light"
-        android:layout_gravity="top"
+        android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:gravity="center"
         android:maxLines="16"
         android:scrollbars="vertical"
-        android:id="@+id/use_of_antibiotics_content"/>
+        android:clickable="true"
+        android:onClick="aware_intro_click"
+        android:id="@+id/aware_intro_content"/>
 
     <TextView
-        android:text="@string/use_of_antibiotics_link"
+        android:text="@string/aware_intro_link"
         android:textSize="18sp"
         android:textColor="@android:color/background_light"
-        android:layout_gravity="top"
+        android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:autoLink="web"
-        android:id="@+id/use_of_antibiotics_link"/>
-
-    <Button
-        android:background="@drawable/menu_button"
-        android:layout_width="80dp"
-        android:layout_height="40dp"
-        android:text="@string/back_to_main"
-        android:textSize="12sp"
-        android:textStyle="bold"
-        android:layout_marginTop="5dp"
-        android:id="@+id/main"
-        android:layout_gravity="center_horizontal"
-        android:onClick="back_to_main"/>
+        android:id="@+id/antimicrobial_link"/>
 
 </LinearLayout>

@@ -46,9 +46,9 @@ public class MainActivity extends Activity {
     }
 
     public void aware_click(View view) {
-        Intent getAwareScreenIntent = new Intent(this, AwareScreen.class);
+        Intent getAwareIntroScreenIntent = new Intent(this, AwareIntroScreen.class);
         final int result = 1;
-        startActivity(getAwareScreenIntent);
+        startActivity(getAwareIntroScreenIntent);
     }
 
     public void immunization_click(View view) {

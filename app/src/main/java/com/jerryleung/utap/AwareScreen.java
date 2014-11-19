@@ -30,10 +30,35 @@ public class AwareScreen extends Activity{
         startActivity(getUseOfAntibioticsIntent);
     }
 
+    public void media_click(View view) {
+        Intent getOtitisMediaIntent = new Intent(this, AwareOtitisMediaScreen.class);
+        final int result = 1;
+        startActivity(getOtitisMediaIntent);
+    }
+
+    public void infection_click(View view) {
+        Intent getInfectionsIntent = new Intent(this, AwareInfectionScreen.class);
+        final int result = 1;
+        startActivity(getInfectionsIntent);
+    }
+
+    public void resistance_click(View view) {
+        Intent getAntibioticResistanceIntent = new Intent(this, AwareAntibioticResistanceScreen.class);
+        final int result = 1;
+        startActivity(getAntibioticResistanceIntent);
+    }
+
+    public void antimicrobial_click(View view) {
+        Intent getAntimicrobialIntent = new Intent(this, AwareAntimicrobialScreen.class);
+        final int result = 1;
+        startActivity(getAntimicrobialIntent);
+    }
+
     public void back_to_main(View view) {
-        Intent goingBack = new Intent();
-        setResult(RESULT_OK, goingBack);
-        finish();
+        Intent goingBack = new Intent(this, MainActivity.class);
+        goingBack.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        goingBack.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        startActivityIfNeeded(goingBack, 0);
     }
 
 }

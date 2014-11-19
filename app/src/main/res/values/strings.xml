@@ -30,6 +30,16 @@
     <string name="aware">Oregon AWARE/ Free CME Opportunities</string>
     <string name="aware_description"> Oregon AWARE offers FREE CE/CME opportunities for Providers.
         Check out their descriptions below!</string>
+    <string name="aware_intro">About AWARE:</string>
+    <string name="aware_intro_content">The Oregon Alliance Working for
+        Antibiotic Resistance Education. \n\n
+        Our mission: To encourage the appropriate use of antibiotics to reduce
+        the problem of antibiotic resistant bacteria in OR. \n\n
+        We offer a variety of materials for Health Care Professionals, Health Educators,
+        and Students to help them convey our message to the general public. \n\n
+        This App highlights some of the resources available for Providers
+        for treatment of their Adult Patients.  </string>
+    <string name="aware_intro_link">public.health.oregon.gov/PreventionWellness/SafeLiving/AntibioticResistance/Pages/index.aspx</string>
 
     <string name="use_of_antibiotics">Judicious Use of Antibiotics</string>
     <string name="use_of_antibiotics_content"> Credit available from AMA-PRA, AAFP,
@@ -40,11 +50,38 @@
         form and score 75% or higher on the post-test. </string>
     <string name="use_of_antibiotics_link">https://public.health.oregon.gov/PreventionWellness/SafeLiving/AntibioticResistance/Pages/CE-CME-Credit-for-Health-Professionals.aspx</string>
 
-
     <string name="media">Otitis Media</string>
+    <string name="media_content">Credits available through the Children’s Hospital of Pittsburg,
+        Pediatrics Medical Education. \n\n
+        Must create a login on the site in order to participate. \n\n
+        CME provided to Physicians, Trainees, Educators, and other Health Professionals. \n\n
+        Courses through the site that offer CME: Tympanometry and Acoustic Reflexometry;
+        Diagnosis of Acute Otitis Media; Diagnosis of Acute Otitis Media with Effusion;
+        Pneumatic Otoscopy. \n\n
+        Each program takes 30-60 minutes to complete and may be done in multiple sessions. </string>
+    <string name="media_link">http://pedsed.pitt.edu</string>
+
     <string name="tract_infections">Upper Respiratory Tract Infections</string>
+    <string name="infection_content">Training developed by MARR Coalition and
+        Wayne State University School of Medicine. \n\n
+        Must create account/login information. \n\n
+        Webinar outlining the appropriate antibiotics management of URIs
+        focusing on antibiotic resistance, treatment guidelines, and patient satisfaction. </string>
+    <string name="infection_link">http://www.semcme.org/semcme/rev2/cme/olt_CMEmain.wml</string>
+
+
     <string name="resistance">Antibiotic Resistance: Community Pharmacists Tip the Scale.</string>
+    <string name="resistance_content">For Pharmacists, sponsored by the CDC,
+        and accredited by the ACPE. \n\n\n
+        1-hour continuing education course of 5 modules. \n\n </string>
+    <string name="resistance_link">http://www.cdc.gov/getsmart/specific-groups/hcp/ce-course.html</string>
+
     <string name="antimicrobial">Antimicrobial Drug Use and Resistance in Europe</string>
+    <string name="antimicrobial_content">Course offered through the Emerging Infectious Diseases
+        Journal with CE credits provided by Medscape, LLC. \n\n\n
+        Read a journal article and taking a post-test,
+        as well as completing an evaluation. \n\n </string>
+    <string name="antimicrobial_link">http://wwwnc.cdc.gov/eid/article/14/11/07-0467_intro</string>
 
     <!-- Immunizations for URIs -->
     <string name="immunizations">Immunizations for URIs</string>

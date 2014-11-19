@@ -21,13 +21,28 @@
         <activity android:name=".PreventionScreen"
             android:screenOrientation="portrait"
             android:label="Prevention" />
+
+        <activity android:name=".AwareIntroScreen"
+            android:screenOrientation="portrait"
+            android:label="AwareIntro" />
         <activity android:name=".AwareScreen"
             android:screenOrientation="portrait"
             android:label="Aware" />
         <activity android:name=".AwareUseOfAntibioticsScreen"
             android:screenOrientation="portrait"
             android:label="AwareUseOfAntibiotics"/>
-
+        <activity android:name=".AwareOtitisMediaScreen"
+            android:screenOrientation="portrait"
+            android:label="AwareOtitisMedia"/>
+        <activity android:name=".AwareInfectionScreen"
+            android:screenOrientation="portrait"
+            android:label="AwareInfections"/>
+        <activity android:name=".AwareAntibioticResistanceScreen"
+            android:screenOrientation="portrait"
+            android:label="AwareAntibioticResistance"/>
+        <activity android:name=".AwareAntimicrobialScreen"
+            android:screenOrientation="portrait"
+            android:label="AwareAntimicrobial"/>
 
         <activity android:name=".ImmunizationScreen"
             android:screenOrientation="portrait"

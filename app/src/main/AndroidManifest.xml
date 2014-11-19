@@ -23,16 +23,21 @@
             android:label="Prevention" />
         <activity android:name=".AwareScreen"
             android:screenOrientation="portrait"
-            android:label="Prevention" />
+            android:label="Aware" />
+        <activity android:name=".AwareUseOfAntibioticsScreen"
+            android:screenOrientation="portrait"
+            android:label="AwareUseOfAntibiotics"/>
+
+
         <activity android:name=".ImmunizationScreen"
             android:screenOrientation="portrait"
-            android:label="Prevention" />
+            android:label="Immunization" />
         <activity android:name=".AlgorithmScreen"
             android:screenOrientation="portrait"
-            android:label="Prevention" />
+            android:label="Algorithm" />
         <activity android:name=".ReferenceScreen"
             android:screenOrientation="portrait"
-            android:label="Prevention" />
+            android:label="Reference" />
     </application>
 
 </manifest>

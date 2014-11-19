@@ -55,19 +55,23 @@
         android:background="@drawable/no_button"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:text="No"
+        android:text="@string/no"
         android:textSize="12sp"
+        android:textStyle="bold"
         android:id="@+id/no"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:onClick="to_no"/>
 
     <Button
         android:background="@drawable/yes_button"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:text="Yes"
+        android:text="@string/yes"
         android:textSize="12sp"
+        android:textStyle="bold"
         android:id="@+id/yes"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:onClick="to_yes"/>
 
     </LinearLayout>
 
@@ -75,8 +79,9 @@
         android:background="@drawable/menu_button"
         android:layout_width="80dp"
         android:layout_height="40dp"
-        android:text="Back to Main"
+        android:text="@string/back_to_main"
         android:textSize="12sp"
+        android:textStyle="bold"
         android:layout_marginTop="5dp"
         android:id="@+id/main"
         android:layout_gravity="center_horizontal"

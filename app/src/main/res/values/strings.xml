@@ -6,6 +6,10 @@
     <string name="title">URI Treatment and Prevention in Oregon</string>
     <string name="action_settings">Settings</string>
 
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="back_to_main">Back to Main</string>
+
     <!-- Antibiotic Resistance and Prevention Screen -->
     <string name="prevention">Antibiotic Resistance and Prevention</string>
     <string name="prevention_content"> \t Add some paragraphs about how these crazy drugs work.\n
@@ -24,6 +28,23 @@
 
     <!-- Oregon AWARE/ Free CME Opportunities Screen -->
     <string name="aware">Oregon AWARE/ Free CME Opportunities</string>
+    <string name="aware_description"> Oregon AWARE offers FREE CE/CME opportunities for Providers.
+        Check out their descriptions below!</string>
+
+    <string name="use_of_antibiotics">Judicious Use of Antibiotics</string>
+    <string name="use_of_antibiotics_content"> Credit available from AMA-PRA, AAFP,
+        Oregon Board of Pharmacy for Physicians, PAs, nurses, and pharmacists. \n \n
+	    41-page article with practice guidelines for acute otitis media, sinusitis, bronchitis,
+        pharyngitis, community acquired pneumonia, and prevention of respiratory infections. \n \n
+        CME is obtained when participants complete an evaluation
+        form and score 75% or higher on the post-test. </string>
+    <string name="use_of_antibiotics_link">https://public.health.oregon.gov/PreventionWellness/SafeLiving/AntibioticResistance/Pages/CE-CME-Credit-for-Health-Professionals.aspx</string>
+
+
+    <string name="media">Otitis Media</string>
+    <string name="tract_infections">Upper Respiratory Tract Infections</string>
+    <string name="resistance">Antibiotic Resistance: Community Pharmacists Tip the Scale.</string>
+    <string name="antimicrobial">Antimicrobial Drug Use and Resistance in Europe</string>
 
     <!-- Immunizations for URIs -->
     <string name="immunizations">Immunizations for URIs</string>
@@ -33,5 +54,7 @@
 
     <!-- References -->
     <string name="references">References</string>
+
+
 
 </resources>

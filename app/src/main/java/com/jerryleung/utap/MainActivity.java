@@ -68,4 +68,5 @@ public class MainActivity extends Activity {
         final int result = 1;
         startActivity(getReferenceScreenIntent);
     }
+
 }

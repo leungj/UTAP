@@ -44,4 +44,28 @@ public class MainActivity extends Activity {
         final int result = 1;
         startActivity(getPreventionScreenIntent);
     }
+
+    public void aware_click(View view) {
+        Intent getAwareScreenIntent = new Intent(this, AwareScreen.class);
+        final int result = 1;
+        startActivity(getAwareScreenIntent);
+    }
+
+    public void immunization_click(View view) {
+        Intent getImmunizationScreenIntent = new Intent(this, ImmunizationScreen.class);
+        final int result = 1;
+        startActivity(getImmunizationScreenIntent);
+    }
+
+    public void algorithm_click(View view) {
+        Intent getAlgorithmScreenIntent = new Intent(this, AlgorithmScreen.class);
+        final int result = 1;
+        startActivity(getAlgorithmScreenIntent);
+    }
+
+    public void reference_click(View view) {
+        Intent getReferenceScreenIntent = new Intent(this, ReferenceScreen.class);
+        final int result = 1;
+        startActivity(getReferenceScreenIntent);
+    }
 }

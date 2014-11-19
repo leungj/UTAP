@@ -10,14 +10,14 @@ import android.widget.TextView;
 /**
  * Created by jerryleung on 11/19/14.
  */
-public class PreventionScreen extends Activity{
+public class ImmunizationScreen extends Activity{
 
     TextView main_content;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.prevention_screen_layout);
+        setContentView(R.layout.immunization_screen_layout);
 
         main_content = (TextView)findViewById(R.id.main_content);
 

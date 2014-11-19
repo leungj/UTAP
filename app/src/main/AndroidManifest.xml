@@ -17,6 +17,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".PreventionScreen"
+            android:screenOrientation="portrait"
+            android:label="Prevention" />
+        <activity android:name=".AwareScreen"
+            android:screenOrientation="portrait"
+            android:label="Prevention" />
+        <activity android:name=".ImmunizationScreen"
+            android:screenOrientation="portrait"
+            android:label="Prevention" />
+        <activity android:name=".AlgorithmScreen"
+            android:screenOrientation="portrait"
+            android:label="Prevention" />
+        <activity android:name=".ReferenceScreen"
+            android:screenOrientation="portrait"
+            android:label="Prevention" />
     </application>
 
 </manifest>

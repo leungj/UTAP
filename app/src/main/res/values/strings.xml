@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Main Screen -->
     <string name="app_name">UTAP</string>
     <string name="title">URI Treatment and Prevention in Oregon</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Antibiotic Resistance and Prevention Screen -->
     <string name="prevention">Antibiotic Resistance and Prevention</string>
+    <string name="prevention_content"> \t Add some paragraphs about how these crazy drugs work.\n
+        Have you watched "interstellar" yet? The movie is freaking awesome!
+        The part where they land on that planet and the waves were like "woosh" and "waash".
+        Then they were stuck there for like an hour but every hour was 7 hours on Earth
+        and when they got back everyone got old and it was crazy!\n
+        Oh also the end when we find out all the supernatural things were actually created by
+        humans from the future? OMG!!\n
+        Well, hope I did not spoil the movie for you. Ohohohohoh!\n
+        Which movie do you think is better? \n
+        Interstellar or Inception? \n
+        How about... \n
+        Interstellar and Dark Knight? \n
+        Let me know what you think </string>
+
+    <!-- Oregon AWARE/ Free CME Opportunities Screen -->
     <string name="aware">Oregon AWARE/ Free CME Opportunities</string>
+
+    <!-- Immunizations for URIs -->
     <string name="immunizations">Immunizations for URIs</string>
+
+    <!-- Treatment Algorithms for URIs -->
     <string name="algorithms">Treatment Algorithms for URIs</string>
+
+    <!-- References -->
     <string name="references">References</string>
 
 </resources>

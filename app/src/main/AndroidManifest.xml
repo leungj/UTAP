@@ -25,6 +25,9 @@
         <activity android:name=".AwareIntroScreen"
             android:screenOrientation="portrait"
             android:label="AwareIntro" />
+        <activity android:name=".AwareIntroScreenTwo"
+            android:screenOrientation="portrait"
+            android:label="AwareIntroTwo" />
         <activity android:name=".AwareScreen"
             android:screenOrientation="portrait"
             android:label="Aware" />

@@ -46,7 +46,7 @@ public class MainActivity extends Activity {
     }
 
     public void aware_click(View view) {
-        Intent getAwareIntroScreenIntent = new Intent(this, AwareIntroScreen.class);
+        Intent getAwareIntroScreenIntent = new Intent(this, AwareIntroScreenTwo.class);
         final int result = 1;
         startActivity(getAwareIntroScreenIntent);
     }

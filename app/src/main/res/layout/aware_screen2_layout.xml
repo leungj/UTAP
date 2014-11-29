@@ -21,40 +21,26 @@
         android:layout_gravity="center_horizontal" />
         -->
 
-    <TextView
-        android:text="@string/aware_intro"
-        android:textStyle="bold"
-        android:textSize="32sp"
-        android:textColor="@android:color/background_light"
-        android:layout_gravity="center_horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:gravity="center" />
 
-    <TextView
-        android:text="@string/aware_intro_content"
-        android:textSize="18sp"
-        android:textColor="@android:color/background_light"
-        android:layout_gravity="center_horizontal"
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:gravity="center"
-        android:clickable="true"
-        android:id="@+id/aware_intro_content"/>
+        android:layout_gravity="center_horizontal"
+        android:text="About Oregon AWARE"
+        android:textColor="@android:color/background_light"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/aware_about"
+        android:onClick="about_click"/>
 
-    <TextView
-        android:text="@string/aware_intro_link"
-        android:textSize="18sp"
-        android:textColor="@android:color/background_light"
-        android:layout_gravity="center_horizontal"
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:gravity="center"
-        android:autoLink="web"
-        android:id="@+id/antimicrobial_link"/>
+        android:layout_gravity="center_horizontal"
+        android:text="Free CME/CE Opportunities"
+        android:textColor="@android:color/background_light"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/cme"
+        android:onClick="cme_click"/>
 
     <Button
         android:background="@drawable/menu_button"

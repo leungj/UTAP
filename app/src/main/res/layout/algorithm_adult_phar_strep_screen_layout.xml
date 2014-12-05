@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:paddingLeft="@dimen/content_horizontal_margin"
+    android:paddingRight="@dimen/content_horizontal_margin"
+    android:paddingTop="@dimen/content_vertical_margin"
+    android:paddingBottom="12dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/adult_strep_title"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:textColor="@android:color/background_light"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center" />
+
+    <TextView
+
+        android:textSize="18sp"
+        android:textColor="@android:color/background_light"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:maxLines="16"
+        android:scrollbars="vertical"
+        android:id="@+id/adult_strep_content"/>
+
+    <Button
+        android:background="@drawable/menu_button"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="@string/back_to_main"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:id="@+id/main"
+        android:layout_gravity="center_horizontal|bottom"
+        android:onClick="back_to_main"/>
+
+</LinearLayout>

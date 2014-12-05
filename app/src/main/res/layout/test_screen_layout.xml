@@ -21,7 +21,7 @@
         android:layout_gravity="center_horizontal" />
 -->
     <TextView
-        android:text="Tips for Providers to Tell Patients"
+        android:text="@string/prevention"
         android:textStyle="bold"
         android:textSize="32sp"
         android:textColor="@android:color/background_light"
@@ -55,23 +55,19 @@
         android:background="@drawable/no_button"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:text="@string/no"
+        android:text="No"
         android:textSize="12sp"
-        android:textStyle="bold"
         android:id="@+id/no"
         android:layout_gravity="center_horizontal"/>
-        //android:onClick="to_no"/>
 
     <Button
         android:background="@drawable/yes_button"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:text="@string/yes"
+        android:text="Yes"
         android:textSize="12sp"
-        android:textStyle="bold"
         android:id="@+id/yes"
         android:layout_gravity="center_horizontal"/>
-        //android:onClick="to_yes"/>
 
     </LinearLayout>
 
@@ -79,9 +75,8 @@
         android:background="@drawable/menu_button"
         android:layout_width="80dp"
         android:layout_height="40dp"
-        android:text="@string/back_to_main"
+        android:text="Back to Main"
         android:textSize="12sp"
-        android:textStyle="bold"
         android:layout_marginTop="5dp"
         android:id="@+id/main"
         android:layout_gravity="center_horizontal"

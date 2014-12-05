@@ -64,9 +64,34 @@
         <activity android:name=".AlgorithmScreen"
             android:screenOrientation="portrait"
             android:label="Algorithm" />
+        <activity android:name=".AlgorithmAdultScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmAdult" />
+        <activity android:name=".AlgorithmAdultPharScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmAdultPhar" />
+        <activity android:name=".AlgorithmAdultPharStrepScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmAdultPharStrep" />
+        <activity android:name=".AlgorithmAdultPharViralScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmAdultPharViral" />
+        <activity android:name=".AlgorithmAdultAcuteScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmAdultAcute" />
+        <activity android:name=".AlgorithmAdultAcuteMildScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmAdultAcuteMild" />
+        <activity android:name=".AlgorithmAdultAcuteSevereScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmAdultAcuteSevere" />
 
-
-
+        <activity android:name=".AlgorithmChildScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmChild" />
+        <activity android:name=".AlgorithmChildPharScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmChild" />
 
 
         <activity android:name=".ReferenceScreen"

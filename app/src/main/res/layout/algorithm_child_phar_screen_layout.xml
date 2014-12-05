@@ -3,8 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="top"
-    android:paddingLeft="@dimen/content_horizontal_margin"
-    android:paddingRight="@dimen/content_horizontal_margin"
+    android:paddingLeft="@dimen/content_horizontal_margin_tight"
+    android:paddingRight="@dimen/content_horizontal_margin_tight"
     android:paddingTop="@dimen/content_vertical_margin"
     android:paddingBottom="12dp"
     tools:context=".MainActivity"
@@ -12,27 +12,33 @@
     android:orientation="vertical">
 
     <TextView
-        android:text="@string/adult_strep_title"
+        android:text="@string/child_phar"
         android:textStyle="bold"
         android:textSize="32sp"
         android:textColor="@android:color/background_light"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="10dp"
         android:gravity="center" />
 
-    <TextView
-        android:textSize="18sp"
-        android:textColor="@android:color/background_light"
-        android:layout_gravity="center_horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:gravity="center"
-        android:maxLines="16"
-        android:scrollbars="vertical"
-        android:id="@+id/adult_strep_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:src="@drawable/childphar"
+            android:id="@+id/tdap_image"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:contentDescription="none"
+            />
+    </ScrollView>
 
     <Button
         android:background="@drawable/menu_button"
@@ -41,9 +47,9 @@
         android:text="@string/back_to_main"
         android:textSize="12sp"
         android:textStyle="bold"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="15dp"
         android:id="@+id/main"
-        android:layout_gravity="center_horizontal|bottom"
+        android:layout_gravity="center_horizontal"
         android:onClick="back_to_main"/>
 
 </LinearLayout>

@@ -11,9 +11,8 @@
     android:background="@drawable/background"
     android:orientation="vertical">
 
-
     <TextView
-        android:text="@string/algorithms"
+        android:text="@string/child_algorithm_title"
         android:textStyle="bold"
         android:textSize="32sp"
         android:textColor="@android:color/background_light"
@@ -21,40 +20,54 @@
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="50dp"
         android:gravity="center" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/adults"
+        android:text="@string/pharyngitis"
         android:textColor="@android:color/background_light"
         android:layout_marginBottom="15dp"
-        android:id="@+id/prevention"
-        android:onClick="adults_click"/>
+        android:onClick="pharyngitis_click"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/children"
+        android:text="@string/acute"
         android:textColor="@android:color/background_light"
         android:layout_marginBottom="15dp"
-        android:id="@+id/aware"
-        android:onClick="child_click"/>
+        android:onClick="acute_click"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/cough"
+        android:textColor="@android:color/background_light"
+        android:layout_marginBottom="15dp"
+        android:onClick="cough_click"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/pneumonia"
+        android:textColor="@android:color/background_light"
+        android:layout_marginBottom="15dp"
+        android:onClick="pneumonia_click"/>
 
     <Button
         android:background="@drawable/menu_button"
         android:layout_width="80dp"
         android:layout_height="40dp"
-        android:text="Back to Main"
+        android:text="@string/back_to_main"
         android:textSize="12sp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="50dp"
         android:id="@+id/main"
         android:layout_gravity="center_horizontal"
         android:onClick="back_to_main"/>
-
-
 
 </LinearLayout>

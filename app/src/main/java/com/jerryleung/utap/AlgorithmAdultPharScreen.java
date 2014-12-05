@@ -3,34 +3,33 @@ package com.jerryleung.utap;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.method.ScrollingMovementMethod;
 import android.view.View;
-import android.widget.TextView;
+import android.widget.ImageView;
 
 /**
  * Created by jerryleung on 11/19/14.
  */
-public class AlgorithmScreen extends Activity{
+public class AlgorithmAdultPharScreen extends Activity{
 
+    private ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.algorithm_screen_layout);
-
+        setContentView(R.layout.algorithm_adult_phar_screen_layout);
+        imageView = (ImageView) findViewById(R.id.pneumo_image);
     }
 
-    public void adults_click(View view) {
-        Intent getAlgorithmAdultIntent = new Intent(this, AlgorithmAdultScreen.class);
+    public void strep_click(View view) {
+        Intent getAlgorithmAdultPharStrepIntent = new Intent(this, AlgorithmAdultPharStrepScreen.class);
         final int result = 1;
-        startActivity(getAlgorithmAdultIntent);
+        startActivity(getAlgorithmAdultPharStrepIntent);
     }
 
-
-    public void child_click(View view) {
-        Intent getAlgorithmChildIntent = new Intent(this, AlgorithmChildScreen.class);
+    public void viral_click(View view) {
+        Intent getAlgorithmAdultPharViralIntent = new Intent(this, AlgorithmAdultPharViralScreen.class);
         final int result = 1;
-        startActivity(getAlgorithmChildIntent);
+        startActivity(getAlgorithmAdultPharViralIntent);
     }
 
     public void back_to_main(View view) {
@@ -39,4 +38,5 @@ public class AlgorithmScreen extends Activity{
         goingBack.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
         startActivityIfNeeded(goingBack, 0);
     }
+
 }

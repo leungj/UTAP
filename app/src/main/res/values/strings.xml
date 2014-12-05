@@ -92,10 +92,25 @@
 
     <!-- Treatment Algorithms for URIs -->
     <string name="algorithms">Treatment Algorithms</string>
+    <string name="adults">Adults</string>
+    <string name="children">Children</string>
+    <string name="adult_algorithm_title">Adult URI \n Treatment Algorithms</string>
+    <string name="child_algorithm_title">Child URI \n Treatment Algorithms</string>
+    <string name="pharyngitis">Pharyngitis</string>
+    <string name="acute">Acute Sinusitis/Rhinosinusitis</string>
+    <string name="cough">Cough Illness/Bronchitis</string>
+    <string name="pneumonia">Community Acquired Pneumonia</string>
+    <string name="adults_phar">Adults: Pharyngitis</string>
+    <string name="adult_strep_title">Group A Strep Management in Adults</string>
+    <string name="adult_viral_title">Viral Pharyngitis Management in Adults</string>
+    <string name="adult_acute">Acute Sinusitis/Rhinosinusitis in Adults</string>
+    <string name="adult_acute_mild_title">Acute Sinusitis Management &lt; 10 Days</string>
+    <string name="adult_acute_severe_title">Acute Sinusitis Management &gt; 10 Days</string>
+
+    <string name="child_phar">Children: Pharyngitis</string>
 
     <!-- References -->
     <string name="references">References</string>
-
 
 
 </resources>

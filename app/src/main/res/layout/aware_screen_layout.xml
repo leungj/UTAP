@@ -49,7 +49,7 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/use_of_antibiotics"
         android:textColor="@android:color/background_light"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="5dp"
         android:id="@+id/use_of_antibiotics"
         android:onClick="use_click"/>
 
@@ -59,7 +59,7 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/media"
         android:textColor="@android:color/background_light"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="5dp"
         android:id="@+id/media"
         android:onClick="media_click"/>
 
@@ -69,7 +69,7 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/tract_infections"
         android:textColor="@android:color/background_light"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="5dp"
         android:id="@+id/tract_infections"
         android:onClick="infection_click"/>
 
@@ -79,7 +79,7 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/resistance"
         android:textColor="@android:color/background_light"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="5dp"
         android:id="@+id/resistance"
         android:onClick="resistance_click"/>
 
@@ -89,7 +89,7 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/antimicrobial"
         android:textColor="@android:color/background_light"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="5dp"
         android:id="@+id/antimicrobial"
         android:onClick="antimicrobial_click"/>
 
@@ -100,9 +100,10 @@
         android:text="Back to Main"
         android:textSize="12sp"
         android:textStyle="bold"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="20dp"
         android:id="@+id/main"
         android:layout_gravity="center_horizontal"
         android:onClick="back_to_main"/>
+
 
 </LinearLayout>

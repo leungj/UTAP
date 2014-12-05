@@ -12,16 +12,28 @@ import android.widget.TextView;
  */
 public class ImmunizationScreen extends Activity{
 
-    TextView main_content;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.immunization_screen_layout);
+    }
 
-        main_content = (TextView)findViewById(R.id.main_content);
+    public void influenza_click(View view) {
+        Intent getImmunizationInfluenzaIntent = new Intent(this, ImmunizationInfluenzaScreen.class);
+        final int result = 1;
+        startActivity(getImmunizationInfluenzaIntent);
+    }
 
-        main_content.setMovementMethod(new ScrollingMovementMethod());
+    public void pneumonococcal_click(View view) {
+        Intent getAlgorithmPneumonococcalIntent = new Intent(this, ImmunizationPneumonococcalScreen.class);
+        final int result = 1;
+        startActivity(getAlgorithmPneumonococcalIntent);
+    }
+
+    public void tdap_click(View view) {
+        Intent getImmunizationTDaPIntent = new Intent(this, ImmunizationTdapScreen.class);
+        final int result = 1;
+        startActivity(getImmunizationTDaPIntent);
     }
 
     public void back_to_main(View view) {

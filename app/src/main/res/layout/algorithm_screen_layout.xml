@@ -11,65 +11,48 @@
     android:background="@drawable/background"
     android:orientation="vertical">
 
-<!--
-    <ImageView
-        android:src="@drawable/background"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:scaleType="fitXY"
-        android:id="@+id/imageView"
-        android:layout_gravity="center_horizontal" />
--->
+
     <TextView
-        android:text="@string/prevention"
+        android:text="@string/algorithms"
         android:textStyle="bold"
         android:textSize="32sp"
         android:textColor="@android:color/background_light"
         android:textAlignment="gravity"
-        android:layout_gravity="top"
+        android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:gravity="center" />
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:singleLine="false"
-        android:text="@string/prevention_content"
-        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:text="Influenza"
         android:textColor="@android:color/background_light"
-        android:maxLines="16"
-        android:scrollbars="vertical"
-        android:id="@+id/main_content" />
+        android:layout_marginBottom="15dp"
+        android:id="@+id/prevention"
+        android:onClick="influenza_click"/>
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:orientation="horizontal"
-        android:layout_marginTop="15dp">
+        android:layout_gravity="center_horizontal"
+        android:text="Pneumonococcal"
+        android:textColor="@android:color/background_light"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/aware"
+        android:onClick="pneumonococcal_click"/>
 
     <Button
-        android:background="@drawable/no_button"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:text="No"
-        android:textSize="12sp"
-        android:id="@+id/no"
-        android:layout_gravity="center_horizontal"/>
-
-    <Button
-        android:background="@drawable/yes_button"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:text="Yes"
-        android:textSize="12sp"
-        android:id="@+id/yes"
-        android:layout_gravity="center_horizontal"/>
-
-    </LinearLayout>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="TDaP"
+        android:textColor="@android:color/background_light"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/immunizations"
+        android:onClick="tdap_click"/>
 
     <Button
         android:background="@drawable/menu_button"
@@ -81,16 +64,7 @@
         android:id="@+id/main"
         android:layout_gravity="center_horizontal"
         android:onClick="back_to_main"/>
-<!--
-    <ImageButton
-        android:src="@drawable/menu_button"
-        android:id="@+id/imageButton"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:scaleType="fitCenter"
-        android:layout_gravity="center_horizontal"
-        style="?android:attr/borderlessButtonStyle" />
-        -->
+
 
 
 </LinearLayout>

@@ -84,10 +84,14 @@
     <string name="antimicrobial_link">http://wwwnc.cdc.gov/eid/article/14/11/07-0467_intro</string>
 
     <!-- Immunizations for URIs -->
-    <string name="immunizations">Immunizations for URIs</string>
+    <string name="immunizations">Immunizations</string>
+    <string name="influenza">Influenza</string>
+    <string name="pneumonococcal">Pneumonococcal</string>
+    <string name="tdap">TDaP</string>
+
 
     <!-- Treatment Algorithms for URIs -->
-    <string name="algorithms">Treatment Algorithms for URIs</string>
+    <string name="algorithms">Treatment Algorithms</string>
 
     <!-- References -->
     <string name="references">References</string>

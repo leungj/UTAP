@@ -12,17 +12,34 @@ import android.widget.TextView;
  */
 public class AlgorithmScreen extends Activity{
 
-    TextView main_content;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.algorithm_screen_layout);
 
-        main_content = (TextView)findViewById(R.id.main_content);
-
-        main_content.setMovementMethod(new ScrollingMovementMethod());
     }
+
+
+    public void influenza_click(View view) {
+        Intent getAlgorithmInfluenzaIntent = new Intent(this, ImmunizationInfluenzaScreen.class);
+        final int result = 1;
+        startActivity(getAlgorithmInfluenzaIntent);
+    }
+
+/*
+    public void pneumonococcal_click(View view) {
+        Intent getAlgorithmPneumonococcalIntent = new Intent(this, AlgorithmPneumonococcalScreen.class);
+        final int result = 1;
+        startActivity(getAlgorithmPneumonococcalIntent);
+    }
+
+    public void tdap_click(View view) {
+        Intent getAlgorithmTDaPIntent = new Intent(this, AlgorithmTDaPScreen.class);
+        final int result = 1;
+        startActivity(getAlgorithmTDaPIntent);
+    }
+*/
 
     public void back_to_main(View view) {
         Intent goingBack = new Intent();

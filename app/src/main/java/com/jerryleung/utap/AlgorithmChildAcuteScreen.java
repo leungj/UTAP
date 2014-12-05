@@ -9,27 +9,27 @@ import android.widget.ImageView;
 /**
  * Created by jerryleung on 11/19/14.
  */
-public class AlgorithmChildPharScreen extends Activity{
+public class AlgorithmChildAcuteScreen extends Activity{
 
     private ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.algorithm_child_phar_screen_layout);
-        imageView = (ImageView) findViewById(R.id.childphar_image);
+        setContentView(R.layout.algorithm_child_acute_screen_layout);
+        imageView = (ImageView) findViewById(R.id.acute_image);
     }
 
-    public void strep_click(View view) {
-        Intent getAlgorithmChildPharStrepIntent = new Intent(this, AlgorithmChildPharStrepScreen.class);
+    public void mild_click(View view) {
+        Intent getAlgorithmChildAcuteMildIntent = new Intent(this, AlgorithmChildAcuteMildScreen.class);
         final int result = 1;
-        startActivity(getAlgorithmChildPharStrepIntent);
+        startActivity(getAlgorithmChildAcuteMildIntent);
     }
 
-    public void viral_click(View view) {
-        Intent getAlgorithmChildPharViralIntent = new Intent(this, AlgorithmChildPharViralScreen.class);
+    public void severe_click(View view) {
+        Intent getAlgorithmChildAcuteSevereIntent = new Intent(this, AlgorithmChildAcuteSevereScreen.class);
         final int result = 1;
-        startActivity(getAlgorithmChildPharViralIntent);
+        startActivity(getAlgorithmChildAcuteSevereIntent);
     }
 
     public void back_to_main(View view) {

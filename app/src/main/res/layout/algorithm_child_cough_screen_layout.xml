@@ -12,7 +12,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:text="@string/child_phar"
+        android:text="@string/child_cough"
         android:textStyle="bold"
         android:textSize="32sp"
         android:textColor="@android:color/background_light"
@@ -27,8 +27,8 @@
         android:layout_height="0dp"
         android:layout_weight="1">
         <ImageView
-            android:src="@drawable/childphar"
-            android:id="@+id/childphar_image"
+            android:src="@drawable/childcough"
+            android:id="@+id/cough_image"
             android:layout_gravity="center_horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_marginTop="5dp"
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="0dp"
             android:contentDescription="none"
             />
     </ScrollView>
@@ -47,23 +47,23 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:orientation="horizontal"
-        android:layout_marginTop="-106dp">
+        android:layout_marginTop="-98dp">
 
         <Button
             android:background="@android:color/transparent"
             android:layout_width="110dp"
             android:layout_height="70dp"
             android:textSize="12sp"
-            android:layout_marginRight="35dp"
-            android:onClick="strep_click"/>
+            android:layout_marginRight="20dp"
+            android:onClick="mild_click"/>
 
         <Button
             android:background="@android:color/transparent"
             android:layout_width="110dp"
             android:layout_height="70dp"
             android:textSize="12sp"
-            android:layout_marginLeft="35dp"
-            android:onClick="viral_click"/>
+            android:layout_marginLeft="20dp"
+            android:onClick="severe_click"/>
 
     </LinearLayout>
 
@@ -74,7 +74,7 @@
         android:text="@string/back_to_main"
         android:textSize="12sp"
         android:textStyle="bold"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="40dp"
         android:id="@+id/main"
         android:layout_gravity="center_horizontal"
         android:onClick="back_to_main"/>

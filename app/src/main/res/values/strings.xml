@@ -112,8 +112,18 @@
     <string name="adult_cap">Community Acquired Pneumonia in Adults</string>
     <string name="adult_cap_manage_title">Management of CAP in Adults</string>
 
-
     <string name="child_phar">Children: Pharyngitis</string>
+    <string name="child_strep_title">Group A Strep Management in Children</string>
+    <string name="child_viral_title">Viral Pharyngitis Management in Children</string>
+    <string name="child_acute">Acute Sinusitis/Rhinosinusitis in Children</string>
+    <string name="child_acute_mild_title">Acute Sinusitis Management &lt; 10 Days</string>
+    <string name="child_acute_severe_title">Acute Sinusitis Management &gt; 10 Days</string>
+    <string name="child_cough">Cough Illness/Bronchitis in Children</string>
+    <string name="child_cough_mild_title">Management of Acute Cough in Children</string>
+    <string name="child_cough_severe_title">Management of Chronic Cough in Children</string>
+    <string name="child_cap">Community Acquired Pneumonia in Children</string>
+    <string name="child_cap_manage_title">Management of CAP in Children</string>
+
 
     <!-- References -->
     <string name="references">References</string>

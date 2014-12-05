@@ -101,14 +101,46 @@
             android:screenOrientation="portrait"
             android:label="AlgorithmAdultCapManage" />
 
-
-
         <activity android:name=".AlgorithmChildScreen"
             android:screenOrientation="portrait"
             android:label="AlgorithmChild" />
         <activity android:name=".AlgorithmChildPharScreen"
             android:screenOrientation="portrait"
-            android:label="AlgorithmChild" />
+            android:label="AlgorithmChildPhar" />
+        <activity android:name=".AlgorithmChildPharStrepScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmChildPharStrep" />
+        <activity android:name=".AlgorithmChildPharViralScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmChildPharViral" />
+        <activity android:name=".AlgorithmChildAcuteScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmAdultAcute" />
+        <activity android:name=".AlgorithmChildAcuteMildScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmAdultAcuteMild" />
+        <activity android:name=".AlgorithmChildAcuteSevereScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmAdultAcuteSevere" />
+        <activity android:name=".AlgorithmChildCoughScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmChildAcute" />
+        <activity android:name=".AlgorithmChildCoughMildScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmChildAcuteMild" />
+        <activity android:name=".AlgorithmChildCoughSevereScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmChildAcuteSevere" />
+        <activity android:name=".AlgorithmChildCapScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmChildCap" />
+        <activity android:name=".AlgorithmChildCapManageScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmAdultCapManage" />
+
+
+
+
 
 
         <activity android:name=".ReferenceScreen"

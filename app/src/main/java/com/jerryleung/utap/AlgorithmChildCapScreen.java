@@ -9,27 +9,21 @@ import android.widget.ImageView;
 /**
  * Created by jerryleung on 11/19/14.
  */
-public class AlgorithmChildPharScreen extends Activity{
+public class AlgorithmChildCapScreen extends Activity{
 
     private ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.algorithm_child_phar_screen_layout);
-        imageView = (ImageView) findViewById(R.id.childphar_image);
+        setContentView(R.layout.algorithm_child_cap_screen_layout);
+        imageView = (ImageView) findViewById(R.id.cap_image);
     }
 
-    public void strep_click(View view) {
-        Intent getAlgorithmChildPharStrepIntent = new Intent(this, AlgorithmChildPharStrepScreen.class);
+    public void manage_click(View view) {
+        Intent getAlgorithmChildCapManageIntent = new Intent(this, AlgorithmChildCapManageScreen.class);
         final int result = 1;
-        startActivity(getAlgorithmChildPharStrepIntent);
-    }
-
-    public void viral_click(View view) {
-        Intent getAlgorithmChildPharViralIntent = new Intent(this, AlgorithmChildPharViralScreen.class);
-        final int result = 1;
-        startActivity(getAlgorithmChildPharViralIntent);
+        startActivity(getAlgorithmChildCapManageIntent);
     }
 
     public void back_to_main(View view) {

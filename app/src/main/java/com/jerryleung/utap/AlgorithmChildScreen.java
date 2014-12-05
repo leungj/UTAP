@@ -19,19 +19,29 @@ public class AlgorithmChildScreen extends Activity{
     }
 
 
-    public void child_click(View view) {
+    public void phar_click(View view) {
         Intent getAlgorithmChildPharIntent = new Intent(this, AlgorithmChildPharScreen.class);
         final int result = 1;
         startActivity(getAlgorithmChildPharIntent);
     }
 
-/*
-    public void child_click(View view) {
-        Intent getAlgorithmChildIntent = new Intent(this, AlgorithmChildScreen.class);
+    public void acute_click(View view) {
+        Intent getAlgorithmChildAcuteIntent = new Intent(this, AlgorithmChildAcuteScreen.class);
         final int result = 1;
-        startActivity(getAlgorithmChildIntent);
+        startActivity(getAlgorithmChildAcuteIntent);
     }
-*/
+
+    public void cough_click(View view) {
+        Intent getAlgorithmChildCoughIntent = new Intent(this, AlgorithmChildCoughScreen.class);
+        final int result = 1;
+        startActivity(getAlgorithmChildCoughIntent);
+    }
+
+    public void cap_click(View view) {
+        Intent getAlgorithmChildCapIntent = new Intent(this, AlgorithmChildCapScreen.class);
+        final int result = 1;
+        startActivity(getAlgorithmChildCapIntent);
+    }
 
     public void back_to_main(View view) {
         Intent goingBack = new Intent(this, MainActivity.class);

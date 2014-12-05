@@ -39,10 +39,10 @@ public class MainActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void prevention_click(View view) {
-        Intent getPreventionScreenIntent = new Intent(this, PreventionScreen.class);
+    public void tips_click(View view) {
+        Intent getTipsScreenIntent = new Intent(this, TipsScreen.class);
         final int result = 1;
-        startActivity(getPreventionScreenIntent);
+        startActivity(getTipsScreenIntent);
     }
 
     public void aware_click(View view) {

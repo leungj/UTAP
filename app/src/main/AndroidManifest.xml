@@ -18,9 +18,21 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".PreventionScreen"
+        <activity android:name=".TipsScreen"
             android:screenOrientation="portrait"
-            android:label="Prevention" />
+            android:label="Tips" />
+        <activity android:name=".TipsResistScreen"
+            android:screenOrientation="portrait"
+            android:label="TipsResist" />
+        <activity android:name=".TipsSafetyScreen"
+            android:screenOrientation="portrait"
+            android:label="TipsSafety" />
+        <activity android:name=".TipsProvidersScreen"
+            android:screenOrientation="portrait"
+            android:label="TipsProviders" />
+        <activity android:name=".TipsPatientsScreen"
+            android:screenOrientation="portrait"
+            android:label="TipsPatients" />
 
         <activity android:name=".AwareIntroScreen"
             android:screenOrientation="portrait"
@@ -138,17 +150,14 @@
             android:screenOrientation="portrait"
             android:label="AlgorithmAdultCapManage" />
 
-
-
-
-
-
         <activity android:name=".ReferenceScreen"
             android:screenOrientation="portrait"
             android:label="Reference" />
 
 
-
+        <activity android:name=".PreventionScreen"
+            android:screenOrientation="portrait"
+            android:label="Prevention" />
 
     </application>
 

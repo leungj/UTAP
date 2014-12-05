@@ -21,7 +21,7 @@
         android:layout_gravity="center_horizontal" />
 -->
     <TextView
-        android:text="@string/prevention"
+        android:text="@string/test"
         android:textStyle="bold"
         android:textSize="32sp"
         android:textColor="@android:color/background_light"
@@ -36,7 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:singleLine="false"
-        android:text="@string/prevention_content"
+        android:text="@string/test_content"
         android:textSize="18sp"
         android:textColor="@android:color/background_light"
         android:maxLines="16"

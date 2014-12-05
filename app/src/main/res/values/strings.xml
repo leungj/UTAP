@@ -10,21 +10,12 @@
     <string name="yes">Yes</string>
     <string name="back_to_main">Back to Main</string>
 
-    <!-- Antibiotic Resistance and Prevention Screen -->
-    <string name="prevention">Antibiotic Resistance and Prevention</string>
-    <string name="prevention_content"> \t Add some paragraphs about how these crazy drugs work.\n
-        Have you watched "interstellar" yet? The movie is freaking awesome!
-        The part where they land on that planet and the waves were like "woosh" and "waash".
-        Then they were stuck there for like an hour but every hour was 7 hours on Earth
-        and when they got back everyone got old and it was crazy!\n
-        Oh also the end when we find out all the supernatural things were actually created by
-        humans from the future? OMG!!\n
-        Well, hope I did not spoil the movie for you. Ohohohohoh!\n
-        Which movie do you think is better? \n
-        Interstellar or Inception? \n
-        How about... \n
-        Interstellar and Dark Knight? \n
-        Let me know what you think </string>
+    <!-- Tips Screen -->
+    <string name="tips">Tips for Providers to Tell Patients</string>
+    <string name="tips_resist">Antibiotic Resistance</string>
+    <string name="tips_safety">Antibiotic Safety</string>
+    <string name="tips_providers">What Providers Can Do</string>
+    <string name="tips_patients">What Patients Can Do</string>
 
     <!-- Oregon AWARE/ Free CME Opportunities Screen -->
     <string name="aware">Oregon AWARE/ Free CME Opportunities</string>
@@ -127,6 +118,23 @@
 
     <!-- References -->
     <string name="references">References</string>
+
+
+    <!-- Test Screen -->
+    <string name="test">Antibiotic Resistance and Prevention</string>
+    <string name="test_content"> \t Add some paragraphs about how these crazy drugs work.\n
+        Have you watched "interstellar" yet? The movie is freaking awesome!
+        The part where they land on that planet and the waves were like "woosh" and "waash".
+        Then they were stuck there for like an hour but every hour was 7 hours on Earth
+        and when they got back everyone got old and it was crazy!\n
+        Oh also the end when we find out all the supernatural things were actually created by
+        humans from the future? OMG!!\n
+        Well, hope I did not spoil the movie for you. Ohohohohoh!\n
+        Which movie do you think is better? \n
+        Interstellar or Inception? \n
+        How about... \n
+        Interstellar and Dark Knight? \n
+        Let me know what you think </string>
 
 
 </resources>

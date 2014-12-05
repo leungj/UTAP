@@ -85,6 +85,23 @@
         <activity android:name=".AlgorithmAdultAcuteSevereScreen"
             android:screenOrientation="portrait"
             android:label="AlgorithmAdultAcuteSevere" />
+        <activity android:name=".AlgorithmAdultCoughScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmAdultAcute" />
+        <activity android:name=".AlgorithmAdultCoughMildScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmAdultAcuteMild" />
+        <activity android:name=".AlgorithmAdultCoughSevereScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmAdultAcuteSevere" />
+        <activity android:name=".AlgorithmAdultCapScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmAdultCap" />
+        <activity android:name=".AlgorithmAdultCapManageScreen"
+            android:screenOrientation="portrait"
+            android:label="AlgorithmAdultCapManage" />
+
+
 
         <activity android:name=".AlgorithmChildScreen"
             android:screenOrientation="portrait"

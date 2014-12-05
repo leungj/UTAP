@@ -30,14 +30,18 @@ public class AlgorithmAdultScreen extends Activity{
         startActivity(getAlgorithmAdultAcuteIntent);
     }
 
-/*
-
-    public void child_click(View view) {
-        Intent getAlgorithmChildIntent = new Intent(this, AlgorithmChildScreen.class);
+    public void cough_click(View view) {
+        Intent getAlgorithmAdultCoughIntent = new Intent(this, AlgorithmAdultCoughScreen.class);
         final int result = 1;
-        startActivity(getAlgorithmChildIntent);
+        startActivity(getAlgorithmAdultCoughIntent);
     }
-*/
+
+    public void cap_click(View view) {
+        Intent getAlgorithmAdultCapIntent = new Intent(this, AlgorithmAdultCapScreen.class);
+        final int result = 1;
+        startActivity(getAlgorithmAdultCapIntent);
+    }
+
 
     public void back_to_main(View view) {
         Intent goingBack = new Intent(this, MainActivity.class);

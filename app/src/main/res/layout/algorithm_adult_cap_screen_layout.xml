@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:paddingLeft="@dimen/content_horizontal_margin_tight"
+    android:paddingRight="@dimen/content_horizontal_margin_tight"
+    android:paddingTop="@dimen/content_vertical_margin"
+    android:paddingBottom="12dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/adult_cap"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:textColor="@android:color/background_light"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:src="@drawable/pneumonia"
+            android:id="@+id/cap_image"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="0dp"
+            android:contentDescription="none"
+            />
+    </ScrollView>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="-114dp">
+
+        <Button
+            android:background="@android:color/transparent"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:textSize="12sp"
+            android:onClick="manage_click"/>
+
+    </LinearLayout>
+
+    <Button
+        android:background="@drawable/menu_button"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="@string/back_to_main"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_marginTop="85dp"
+        android:id="@+id/main"
+        android:layout_gravity="center_horizontal"
+        android:onClick="back_to_main"/>
+
+</LinearLayout>

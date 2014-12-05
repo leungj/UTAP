@@ -30,7 +30,7 @@ public class AlgorithmAdultAcuteSevereScreen extends Activity{
                 "<br> <br>" +
                 "If PCN allergy: Doxycycline"+
                 "<br> <br>" +
-                "<font color='#3399FF'> <strong>Adjunctive Therapy:</strong></font> " +
+                "<strong>Adjunctive Therapy:</strong> " +
                 "<br>" +
                 "Nasal corticosteroid spray" +
                 "<br>" +

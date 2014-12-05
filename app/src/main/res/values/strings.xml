@@ -106,6 +106,12 @@
     <string name="adult_acute">Acute Sinusitis/Rhinosinusitis in Adults</string>
     <string name="adult_acute_mild_title">Acute Sinusitis Management &lt; 10 Days</string>
     <string name="adult_acute_severe_title">Acute Sinusitis Management &gt; 10 Days</string>
+    <string name="adult_cough">Cough Illness/Bronchitis in Adults</string>
+    <string name="adult_cough_mild_title">Management of Acute Cough in Adults</string>
+    <string name="adult_cough_severe_title">Management of Chronic Cough in Adults</string>
+    <string name="adult_cap">Community Acquired Pneumonia in Adults</string>
+    <string name="adult_cap_manage_title">Management of CAP in Adults</string>
+
 
     <string name="child_phar">Children: Pharyngitis</string>
 

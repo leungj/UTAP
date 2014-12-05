@@ -57,7 +57,7 @@
         android:text="@string/pneumonia"
         android:textColor="@android:color/background_light"
         android:layout_marginBottom="15dp"
-        android:onClick="pneumonia_click"/>
+        android:onClick="cap_click"/>
 
     <Button
         android:background="@drawable/menu_button"
